@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+}
+
+.head1 {
+  background-color: black;
+  color: white
+}
+
+.head2 {
+  background-color: #F0A83E;
+  color: white
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+.textImage {
+  text-align: center;
+}
+
+.priceProduct {
+  color: #F0A83E;
+}
+
+.footer1 {
+  background-color: #3C2313;
+  color: #8A8787;
+}
+
+.footer2 {
+  background-color: #F0A83E;
+}
+
+.mainImage {
+  max-width:100vh;
+  max-height:100vh;
+}

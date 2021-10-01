@@ -5,16 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/css.css">
+  <title>PetShop</title>
 </head>
 
 <body>
   <header>
-    <section>
-      <p>Grandes ofertas en comederos</p>
-      <p>Español</p>
-      <p>ARG$</p>
-      <section>
+    <div>
+      <div class='head1'>
+        <p>Grandes ofertas en comederos</p>
+        <ul>
+          <li>Español</li>
+          <li>ARG$</li>
+        </ul>
+      </div>
+      <div class='head2'>
         <img src="img/Logo.png" alt="Logo petshop">
         <nav>
           <ul>
@@ -24,17 +29,18 @@
             <li><a href="#">Contactanos</a></li>
           </ul>
         </nav>
-      </section>
-    </section>
+      </div>
+    </div>
   </header>
   <main>
-    <section>
-      <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Img principal">
+    <h1 class='textImage'>Es un placer tenerte aqui!</h1>
+    <div>
+      <img class='mainImage' src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Img principal">
       <p>¡Es un placer tenerte aqui!</p>
       <p>¡Comederos en descuento!</p>
       <p>COMEDEROS</p>
-    </section>
-    <section>
+    </div>
+    <div>
       <img src="img/pawprint 1.png" alt="imagen huella">
       <h1>Productos Destacados</h1>
       <nav>
@@ -50,22 +56,41 @@
       <article>
         <img src="img/churrasquito.png" alt="churrasquito">
         <p>Juguete Churrasquito</p>
-        <p>$150</p>
+        <p class='priceProduct'>$150</p>
       </article>
       <article>
         <img src="img/comedero.png" alt="comedero">
         <p>Comedero para perro</p>
-        <p>$250</p>
+        <p class='priceProduct'>$250</p>
       </article>
       <article>
         <img src="img/Huesito.png" alt="huesito">
         <p>Juguete Huesito</p>
-        <p>$650</p>
+        <p class='priceProduct'>$650</p>
       </article>
-    </section>
+    </div>
   </main>
   <footer>
-    <p>Todos los derechos reservados Front End</p>
+    <div class='footer1'>
+      <div>
+        <img src="./img/location.png" alt="location">
+        <p>Localidad</p>
+        <p>Calle - provincia</p>
+      </div>
+      <div>
+        <img src="./img/telefono.png" alt="telefono">
+        <p>Telefono</p>
+        <p>Numero de telefono</p>
+      </div>
+      <div>
+        <img src="./img/contacto.png" alt="contacto">
+        <p>Correo Electronico</p>
+        <p>Direccion de correo</p>
+      </div>
+      <img src="img/Logo 2.png" alt="Logo petshop">
+    </div>
+    <br>
+    <p class='footer2'>Todos los derechos reservados Front End</p>
   </footer>
 </body>
 
